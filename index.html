@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BomBrick Realtors | Commercial & Residential Spaces in Mumbai</title>
+<meta name="description" content="BomBrick Realtors — Mumbai's trusted real estate experts. 0% brokerage, free legal advice, bottom price guaranteed. Commercial and residential spaces in Mumbai.">
+<meta name="keywords" content="real estate Mumbai, 0% brokerage Mumbai, buy property Mumbai, commercial space Mumbai, BomBrick Realtors, Santacruz property, Kalina Mumbai">
+<meta name="robots" content="index, follow">
+<meta name="author" content="BomBrick Realtors">
+<link rel="canonical" href="https://www.bombrickrealtors.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.bombrickrealtors.com/">
+<meta property="og:title" content="BomBrick Realtors | 0% Brokerage Mumbai Real Estate">
+<meta property="og:description" content="Commercial and residential spaces in Mumbai. 0% brokerage, free legal advice, bottom price guaranteed.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=85">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BomBrick Realtors | Mumbai Real Estate">
+<meta name="twitter:description" content="0% Brokerage. Free Legal Advice. Bottom Price Guaranteed.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"RealEstateAgent","name":"BomBrick Realtors","url":"https://www.bombrickrealtors.com","description":"Commercial and residential real estate specialists in Mumbai. 0% brokerage, free legal advice, bottom price guaranteed.","telephone":"+919619954168","email":"bombrickrealtors@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Ground Floor, Plot No. 177, Structural Building, Besides L&T Financial Center, Mumbai University Road, Kalina, Santacruz (East)","addressLocality":"Mumbai","postalCode":"400098","addressCountry":"IN"},"priceRange":"₹₹₹","areaServed":"Mumbai","employee":[{"@type":"Person","name":"Anas Shaikh"},{"@type":"Person","name":"Azeem Shaikh"},{"@type":"Person","name":"Faiz Shaikh"}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ── RESET & ROOT ── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --ink:      #1a1a1a;
+  --char:     #2e2e2e;
+  --mid:      #686868;
+  --smoke:    #aaaaaa;
+  --mist:     #e4dfd8;
+  --cream:    #f5f0e8;
+  --off:      #faf8f5;
+  --white:    #ffffff;
+  --gold:     #b8935a;
+  --gd:       #9a7840;
+  --gl:       #d4ad7a;
+  --gp:       #f2e8d5;
+  --nav-h:    76px;
+}
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: 'Jost', system-ui, sans-serif; background: var(--white); color: var(--ink); overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+
+/* ── NAV ── */
+#nav {
+  position: fixed; inset: 0 0 auto; z-index: 500;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 3.5rem; height: var(--nav-h);
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(184,147,90,0.18);
+  transition: box-shadow 0.4s;
+}
+#nav.scrolled { box-shadow: 0 4px 40px rgba(0,0,0,0.08); }
+
+.nav-logo { display: flex; align-items: center; gap: 1rem; text-decoration: none; }
+.nav-logo-box { background: var(--ink); padding: 9px 13px; border-left: 3px solid var(--gold); transition: background 0.25s; }
+.nav-logo:hover .nav-logo-box { background: #333; }
+.nav-logo-bb { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.85rem; font-weight: 600; color: var(--white); line-height: 1; letter-spacing: -0.01em; }
+.nav-logo-bb i { color: var(--gold); font-style: normal; margin: 0 1px; }
+.nav-vdiv { width: 1px; height: 32px; background: var(--gold); margin: 0 0.7rem; }
+.nav-wm { display: flex; flex-direction: column; }
+.nav-wm .wm-top { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.1rem; font-weight: 500; color: var(--ink); letter-spacing: 0.05em; line-height: 1.2; }
+.nav-wm .wm-bot { font-size: 0.6rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold); margin-top: 2px; }
+
+.nav-links { display: flex; gap: 2.2rem; list-style: none; }
+.nav-links a { font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--char); text-decoration: none; position: relative; padding-bottom: 4px; transition: color 0.2s; }
+.nav-links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background: var(--gold); transition: width 0.3s ease; }
+.nav-links a:hover { color: var(--gold); }
+.nav-links a:hover::after { width: 100%; }
+
+.nav-cta { border: 1.5px solid var(--gold); color: var(--gold); padding: 10px 26px; font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none; transition: all 0.3s; white-space: nowrap; }
+.nav-cta:hover { background: var(--gold); color: var(--white); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(184,147,90,0.3); }
+
+/* Hamburger */
+.ham { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+.ham span { display: block; width: 24px; height: 1.5px; background: var(--ink); transition: all 0.3s; }
+.ham.open span:nth-child(1) { transform: rotate(45deg) translate(4.7px, 4.7px); }
+.ham.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.ham.open span:nth-child(3) { transform: rotate(-45deg) translate(4.7px, -4.7px); }
+
+/* Mobile menu */
+#mob-menu {
+  display: none; position: fixed; inset: var(--nav-h) 0 0;
+  background: rgba(255,255,255,0.99); backdrop-filter: blur(20px);
+  z-index: 499; flex-direction: column; align-items: center; justify-content: center; gap: 2.8rem;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+}
+#mob-menu.open { opacity: 1; pointer-events: all; }
+#mob-menu a { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 2rem; font-weight: 400; color: var(--ink); text-decoration: none; letter-spacing: 0.04em; transition: color 0.2s; }
+#mob-menu a:hover { color: var(--gold); }
+#mob-menu .mob-cta { font-family: 'Jost', sans-serif; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; border: 1.5px solid var(--gold); color: var(--gold); padding: 13px 40px; }
+
+/* ── HERO ── */
+.hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding-top: var(--nav-h); }
+.hero-bg {
+  position: absolute; inset: 0;
+  background: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1800&q=85') right center / cover no-repeat;
+  animation: bgZoom 18s ease-in-out infinite alternate;
+}
+@keyframes bgZoom { from { transform: scale(1.04); } to { transform: scale(1.11); } }
+.hero-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(108deg, rgba(245,240,232,0.98) 0%, rgba(245,240,232,0.95) 36%, rgba(245,240,232,0.6) 58%, rgba(245,240,232,0.05) 100%);
+}
+.hero-inner { position: relative; z-index: 2; padding: 5rem 3.5rem 5rem 5rem; max-width: 660px; width: 100%; }
+
+/* Hero logo */
+.hero-logo { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2.8rem; animation: fadeUp 0.9s 0.1s both; }
+.hero-logo-box { background: var(--ink); padding: 13px 17px; border-left: 4px solid var(--gold); box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+.hero-logo-bb { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 2.8rem; font-weight: 600; color: var(--white); line-height: 1; letter-spacing: -0.01em; }
+.hero-logo-bb i { color: var(--gold); font-style: normal; }
+.hero-logo-vdiv { width: 1.5px; height: 52px; background: var(--gold); margin: 0 0.5rem; }
+.hero-logo-wm { display: flex; flex-direction: column; }
+.hero-logo-wm .hlw-top { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.75rem; font-weight: 400; color: var(--ink); letter-spacing: 0.05em; line-height: 1.2; }
+.hero-logo-wm .hlw-bot { font-size: 0.66rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gd); margin-top: 4px; }
+
+.hero-eyebrow { display: inline-flex; align-items: center; gap: 0.8rem; font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gd); margin-bottom: 1.4rem; animation: fadeUp 0.9s 0.25s both; }
+.hero-eyebrow::before { content: ''; display: block; width: 30px; height: 1px; background: var(--gold); }
+
+.hero h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(3rem, 5.5vw, 5rem); font-weight: 300; line-height: 1.05; color: var(--ink); animation: fadeUp 0.9s 0.35s both; }
+.hero h1 strong { display: block; font-weight: 600; }
+.hero h1 em { font-style: italic; color: var(--gold); }
+
+.hero-tagline { display: inline-block; font-size: 0.76rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gd); margin: 1.6rem 0 1.8rem; padding: 0.65rem 1.2rem; background: var(--gp); border-left: 3px solid var(--gold); animation: fadeUp 0.9s 0.45s both; }
+
+.hero-sub { font-size: 1.05rem; font-weight: 300; color: var(--mid); line-height: 1.85; margin-bottom: 2.4rem; max-width: 500px; animation: fadeUp 0.9s 0.55s both; }
+
+.hero-phones { display: flex; gap: 2rem; margin-bottom: 2.4rem; flex-wrap: wrap; animation: fadeUp 0.9s 0.65s both; }
+.hero-phone { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--ink); transition: transform 0.25s; }
+.hero-phone:hover { transform: translateX(5px); }
+.hero-phone-icon { width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--gold); display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background 0.25s; }
+.hero-phone:hover .hero-phone-icon { background: var(--gold); }
+.hero-phone-icon svg { width: 15px; height: 15px; transition: stroke 0.25s; }
+.hero-phone:hover .hero-phone-icon svg path { stroke: white; }
+.hero-phone-num { font-size: 1.1rem; font-weight: 500; letter-spacing: 0.04em; transition: color 0.25s; }
+.hero-phone:hover .hero-phone-num { color: var(--gold); }
+
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; animation: fadeUp 0.9s 0.75s both; }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Buttons */
+.btn-gold { display: inline-block; background: var(--gold); color: var(--white); padding: 15px 38px; text-decoration: none; font-size: 0.76rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; position: relative; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; }
+.btn-gold::after { content: ''; position: absolute; inset: 0; background: var(--gd); transform: scaleX(0); transform-origin: left; transition: transform 0.35s ease; z-index: 0; }
+.btn-gold span { position: relative; z-index: 1; }
+.btn-gold:hover::after { transform: scaleX(1); }
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(184,147,90,0.35); }
+.btn-dark { display: inline-block; border: 1.5px solid var(--ink); color: var(--ink); padding: 15px 38px; text-decoration: none; font-size: 0.76rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 400; transition: all 0.3s; }
+.btn-dark:hover { background: var(--ink); color: var(--white); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.12); }
+.btn-ghost-gold { display: inline-block; border: 1.5px solid var(--gold); color: var(--gold); padding: 15px 38px; text-decoration: none; font-size: 0.76rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 400; transition: all 0.3s; }
+.btn-ghost-gold:hover { background: var(--gold); color: var(--white); }
+
+/* ── USP STRIP ── */
+.usp-strip { background: var(--ink); display: grid; grid-template-columns: repeat(5, 1fr); }
+.usp-item { padding: 2.2rem 1.4rem; text-align: center; border-right: 1px solid rgba(255,255,255,0.07); display: flex; flex-direction: column; align-items: center; gap: 0.9rem; transition: background 0.3s; cursor: default; }
+.usp-item:last-child { border-right: none; }
+.usp-item:hover { background: rgba(184,147,90,0.1); }
+.usp-icon { width: 44px; height: 44px; border: 1px solid rgba(184,147,90,0.45); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+.usp-item:hover .usp-icon { border-color: var(--gold); background: rgba(184,147,90,0.15); }
+.usp-icon svg { width: 19px; height: 19px; stroke: var(--gold); fill: none; stroke-width: 1.5; }
+.usp-title { font-size: 0.82rem; font-weight: 600; color: var(--white); letter-spacing: 0.04em; }
+.usp-sub { font-size: 0.72rem; color: var(--smoke); line-height: 1.5; }
+
+/* ── SECTION BASE ── */
+section { padding: 96px 5rem; }
+.eyebrow { font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.8rem; }
+.eyebrow::after { content: ''; flex: 0 0 34px; height: 1px; background: var(--gold); }
+h2.section-title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(2.4rem, 4vw, 3.6rem); font-weight: 300; line-height: 1.1; color: var(--ink); margin-bottom: 1.5rem; }
+h2.section-title em { font-style: italic; color: var(--gold); }
+.section-body { font-size: 1rem; font-weight: 300; color: var(--mid); line-height: 1.9; max-width: 560px; }
+
+/* ── ABOUT ── */
+.about { background: var(--cream); display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+.about-img-wrap { position: relative; }
+.about-img { width: 100%; aspect-ratio: 4/5; object-fit: cover; transition: transform 0.6s ease; }
+.about-img-wrap:hover .about-img { transform: scale(1.02); }
+.about-img-frame { position: absolute; bottom: -22px; right: -22px; width: 52%; aspect-ratio: 1; border: 1px solid var(--gold); opacity: 0.3; pointer-events: none; transition: opacity 0.4s; }
+.about-img-wrap:hover .about-img-frame { opacity: 0.6; }
+.about-badges { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 2rem 0 2.2rem; }
+.badge { border: 1px solid rgba(184,147,90,0.4); background: var(--white); padding: 7px 15px; font-size: 0.7rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--gd); transition: all 0.25s; cursor: default; }
+.badge:hover { background: var(--gold); color: var(--white); border-color: var(--gold); }
+
+/* ── SERVICES ── */
+.services { background: var(--white); }
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 3.5rem; background: var(--mist); }
+.svc-card { background: var(--white); padding: 2.8rem 2.4rem; border-bottom: 2px solid transparent; transition: border-color 0.3s, background 0.3s, transform 0.25s; cursor: default; }
+.svc-card:hover { border-bottom-color: var(--gold); background: var(--gp); transform: translateY(-4px); }
+.svc-icon-wrap { width: 48px; height: 48px; border: 1px solid rgba(184,147,90,0.35); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.4rem; transition: all 0.3s; }
+.svc-card:hover .svc-icon-wrap { border-color: var(--gold); background: var(--gold); }
+.svc-icon-wrap svg { width: 21px; height: 21px; stroke: var(--gold); fill: none; stroke-width: 1.5; transition: stroke 0.3s; }
+.svc-card:hover .svc-icon-wrap svg { stroke: var(--white); }
+.svc-title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.55rem; font-weight: 400; color: var(--ink); margin-bottom: 0.9rem; line-height: 1.2; }
+.svc-body { font-size: 0.92rem; font-weight: 300; color: var(--mid); line-height: 1.78; }
+
+/* ── LEGAL ── */
+.legal { background: var(--ink); }
+.legal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+.legal-left .eyebrow { color: var(--gl); }
+.legal-left .eyebrow::after { background: var(--gl); }
+.legal-left h2.section-title { color: var(--white); }
+.legal-left h2.section-title em { color: var(--gl); }
+.legal-left .section-body { color: rgba(255,255,255,0.6); max-width: 440px; }
+.legal-tagline { display: inline-block; font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gl); margin: 1.6rem 0 2rem; padding: 0.65rem 1.2rem; background: rgba(184,147,90,0.1); border-left: 2px solid var(--gold); }
+.legal-note { font-size: 0.74rem; color: rgba(255,255,255,0.35); margin-top: 1.2rem; letter-spacing: 0.06em; line-height: 1.7; }
+
+.legal-benefits { display: flex; flex-direction: column; gap: 2px; }
+.legal-benefit { display: flex; gap: 1.2rem; align-items: flex-start; padding: 1.6rem 1.8rem; background: rgba(255,255,255,0.04); border: 1px solid rgba(184,147,90,0.12); transition: all 0.3s; cursor: default; }
+.legal-benefit:hover { background: rgba(184,147,90,0.09); border-color: rgba(184,147,90,0.35); transform: translateX(6px); }
+.legal-benefit-icon { width: 44px; height: 44px; border: 1px solid rgba(184,147,90,0.35); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; transition: all 0.3s; }
+.legal-benefit:hover .legal-benefit-icon { border-color: var(--gold); background: rgba(184,147,90,0.15); }
+.legal-benefit-icon svg { width: 19px; height: 19px; stroke: var(--gold); fill: none; stroke-width: 1.5; }
+.legal-benefit-title { font-size: 1rem; font-weight: 500; color: var(--white); margin-bottom: 0.35rem; }
+.legal-benefit-body { font-size: 0.88rem; font-weight: 300; color: rgba(255,255,255,0.5); line-height: 1.68; }
+
+/* ── WHY US ── */
+.whyus { background: var(--off); display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+.whyus-img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+.why-list { display: flex; flex-direction: column; gap: 1.8rem; margin-top: 2.2rem; }
+.why-item { display: flex; gap: 1.2rem; align-items: flex-start; transition: transform 0.25s; cursor: default; }
+.why-item:hover { transform: translateX(6px); }
+.why-marker { width: 40px; height: 40px; background: var(--gp); border: 1px solid rgba(184,147,90,0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; transition: all 0.3s; }
+.why-item:hover .why-marker { background: var(--gold); border-color: var(--gold); }
+.why-marker svg { width: 17px; height: 17px; stroke: var(--gd); fill: none; stroke-width: 2; transition: stroke 0.3s; }
+.why-item:hover .why-marker svg { stroke: var(--white); }
+.why-title { font-size: 1rem; font-weight: 500; color: var(--ink); margin-bottom: 0.3rem; }
+.why-body { font-size: 0.9rem; font-weight: 300; color: var(--mid); line-height: 1.72; }
+
+/* ── TEAM ── */
+.team { background: var(--cream); }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3.5rem; }
+.team-card { background: var(--white); border: 1px solid var(--mist); overflow: hidden; transition: box-shadow 0.4s, transform 0.4s; }
+.team-card:hover { transform: translateY(-8px); box-shadow: 0 28px 70px rgba(0,0,0,0.1); }
+.team-img-wrap { aspect-ratio: 3/4; overflow: hidden; background: var(--mist); }
+.team-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease, filter 0.5s; filter: grayscale(20%); }
+.team-card:hover .team-img { transform: scale(1.06); filter: grayscale(0%); }
+.team-info { padding: 1.8rem 2rem 2.2rem; }
+.team-name { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.65rem; font-weight: 500; color: var(--ink); margin-bottom: 0.3rem; }
+.team-role { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.9rem; }
+.team-bio { font-size: 0.92rem; font-weight: 300; color: var(--mid); line-height: 1.72; }
+.team-owned { text-align: center; margin-top: 2.8rem; font-size: 0.72rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--smoke); }
+
+/* ── TESTIMONIAL ── */
+.testimonial { background: var(--ink); text-align: center; position: relative; overflow: hidden; }
+.testimonial::before { content: '\201C'; position: absolute; top: -3rem; left: 50%; transform: translateX(-50%); font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22rem; line-height: 1; color: rgba(184,147,90,0.06); pointer-events: none; }
+.testimonial blockquote { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(1.5rem, 2.8vw, 2.3rem); font-weight: 300; font-style: italic; color: var(--white); line-height: 1.6; max-width: 860px; margin: 0 auto 2.2rem; position: relative; z-index: 1; }
+.testimonial cite { font-size: 0.74rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--gold); font-style: normal; }
+
+/* ── CONTACT ── */
+.contact { background: var(--off); display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+.contact-info-block { padding-top: 0.4rem; }
+.c-detail { margin-bottom: 2.2rem; }
+.c-label { font-size: 0.68rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.55rem; }
+.c-value { font-size: 1rem; font-weight: 300; color: var(--char); line-height: 1.75; }
+.c-value a { text-decoration: none; color: var(--char); transition: color 0.2s; }
+.c-value a:hover { color: var(--gold); }
+.c-phones { display: flex; flex-direction: column; gap: 0.4rem; }
+.c-map-link { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gd); text-decoration: none; margin-top: 0.7rem; border-bottom: 1px solid rgba(184,147,90,0.35); padding-bottom: 2px; transition: color 0.2s; }
+.c-map-link:hover { color: var(--gold); }
+
+/* Contact form */
+.contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
+.form-field { display: flex; flex-direction: column; gap: 0.5rem; }
+.form-field label { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gd); font-weight: 500; }
+.form-field input,
+.form-field select,
+.form-field textarea {
+  background: var(--white); border: 1px solid var(--mist); color: var(--ink);
+  padding: 14px 16px; font-family: 'Jost', sans-serif; font-size: 0.95rem;
+  font-weight: 300; outline: none; transition: border-color 0.25s, box-shadow 0.25s;
+  resize: none; appearance: none; width: 100%;
+}
+.form-field input::placeholder,
+.form-field textarea::placeholder { color: var(--smoke); }
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(184,147,90,0.12); }
+.form-field select { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23b8935a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; padding-right: 44px; }
+.btn-submit { background: var(--gold); color: var(--white); padding: 16px 48px; border: none; cursor: pointer; font-family: 'Jost', sans-serif; font-size: 0.78rem; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; position: relative; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; align-self: flex-start; }
+.btn-submit::after { content: ''; position: absolute; inset: 0; background: var(--gd); transform: scaleX(0); transform-origin: left; transition: transform 0.35s ease; z-index: 0; }
+.btn-submit span { position: relative; z-index: 1; }
+.btn-submit:hover::after { transform: scaleX(1); }
+.btn-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(184,147,90,0.35); }
+.btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
+#form-success { display: none; margin-top: 0.8rem; padding: 1rem 1.4rem; background: var(--gp); border-left: 3px solid var(--gold); font-size: 0.9rem; color: var(--gd); font-weight: 500; }
+
+/* ── FOOTER ── */
+footer { background: var(--ink); border-top: 2px solid var(--gold); padding: 3rem 5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+.footer-logo { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.25rem; color: var(--white); letter-spacing: 0.05em; }
+.footer-logo span { color: var(--gold); }
+.footer-copy { font-size: 0.72rem; color: var(--smoke); letter-spacing: 0.04em; text-align: center; line-height: 1.6; }
+.footer-links { display: flex; gap: 2rem; }
+.footer-links a { font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--smoke); text-decoration: none; transition: color 0.2s; }
+.footer-links a:hover { color: var(--gold); }
+
+/* ── SCROLL REVEAL ── */
+.reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+.reveal-l { opacity: 0; transform: translateX(-26px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.reveal-l.visible { opacity: 1; transform: none; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+  section { padding: 80px 3rem; }
+  .about, .whyus, .contact, .legal-grid { gap: 3.5rem; }
+}
+
+@media (max-width: 900px) {
+  #nav { padding: 0 1.5rem; }
+  .nav-links, .nav-cta { display: none; }
+  .ham { display: flex; }
+  #mob-menu { display: flex; }
+
+  section { padding: 64px 1.5rem; }
+  .hero-inner { padding: 3.5rem 1.5rem 4rem; max-width: 100%; }
+  .hero-overlay { background: linear-gradient(180deg, rgba(245,240,232,0.99) 0%, rgba(245,240,232,0.97) 50%, rgba(245,240,232,0.7) 75%, rgba(245,240,232,0.15) 100%); }
+  .hero-logo-bb { font-size: 2.2rem; }
+  .hero-logo-wm .hlw-top { font-size: 1.4rem; }
+  .hero-logo-vdiv { height: 42px; }
+  .hero h1 { font-size: clamp(2.6rem, 8vw, 3.5rem); }
+  .hero-sub { font-size: 1rem; }
+
+  .usp-strip { grid-template-columns: repeat(2, 1fr); }
+  .usp-item:nth-child(2) { border-right: none; }
+  .usp-item:nth-child(3), .usp-item:nth-child(4) { border-top: 1px solid rgba(255,255,255,0.07); }
+  .usp-item:nth-child(4) { border-right: none; }
+  .usp-item:nth-child(5) { grid-column: span 2; border-right: none; border-top: 1px solid rgba(255,255,255,0.07); }
+
+  .about, .whyus, .contact, .legal-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .about-img-wrap { display: none; }
+  .whyus-img { display: none; }
+  .services-grid { grid-template-columns: 1fr; }
+  .team-grid { grid-template-columns: 1fr; max-width: 400px; margin-inline: auto; }
+
+  footer { flex-direction: column; text-align: center; padding: 2.5rem 1.5rem; }
+  .footer-links { justify-content: center; flex-wrap: wrap; gap: 1.2rem; }
+}
+
+@media (max-width: 520px) {
+  .hero-logo { flex-wrap: wrap; gap: 0.8rem; }
+  .hero-phones { flex-direction: column; gap: 1.2rem; }
+  .hero-actions { flex-direction: column; }
+  .btn-gold, .btn-dark, .btn-ghost-gold { text-align: center; width: 100%; }
+  h2.section-title { font-size: clamp(2rem, 8vw, 2.6rem); }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#home" class="nav-logo">
+    <div class="nav-logo-box"><span class="nav-logo-bb">B<i>|</i>B</span></div>
+    <div class="nav-vdiv"></div>
+    <div class="nav-wm"><span class="wm-top">BomBrick</span><span class="wm-bot">Realtors</span></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#legal">Legal Advice</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get in Touch</a>
+  <button class="ham" id="ham" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mob-menu">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#legal">Free Legal Advice</a>
+  <a href="#team">Team</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="mob-cta">Enquire Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+
+    <div class="hero-logo">
+      <div class="hero-logo-box">
+        <span class="hero-logo-bb">B<i>|</i>B</span>
+      </div>
+      <div class="hero-logo-vdiv"></div>
+      <div class="hero-logo-wm">
+        <span class="hlw-top">BomBrick Realtors</span>
+        <span class="hlw-bot">Kalina, Santacruz East · Mumbai</span>
+      </div>
+    </div>
+
+    <div class="hero-eyebrow">Mumbai's Trusted Realtors</div>
+    <h1>Commercial &amp;<br><strong>Residential</strong><em>Spaces</em></h1>
+    <div class="hero-tagline">We Negotiate For You &nbsp;|&nbsp; Bottom Price Guaranteed</div>
+    <p class="hero-sub">BomBrick Realtors brings a client-first approach to every property deal in Mumbai — zero brokerage fees, free legal advice, and relationships that last a lifetime.</p>
+
+    <div class="hero-phones">
+      <a href="tel:+919619954168" class="hero-phone">
+        <div class="hero-phone-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.86 10.7 19.79 19.79 0 01.78 2.1 2 2 0 012.77 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.08-1.08a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" stroke="#b8935a" stroke-width="1.5" fill="none"/></svg>
+        </div>
+        <span class="hero-phone-num">96199 54168</span>
+      </a>
+      <a href="tel:+917977018186" class="hero-phone">
+        <div class="hero-phone-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.86 10.7 19.79 19.79 0 01.78 2.1 2 2 0 012.77 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.08-1.08a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" stroke="#b8935a" stroke-width="1.5" fill="none"/></svg>
+        </div>
+        <span class="hero-phone-num">79770 18186</span>
+      </a>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#contact" class="btn-gold"><span>Enquire Now</span></a>
+      <a href="#legal" class="btn-dark">Free Legal Advice</a>
+    </div>
+  </div>
+</section>
+
+<!-- USP STRIP -->
+<div class="usp-strip">
+  <div class="usp-item reveal">
+    <div class="usp-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+    <div class="usp-title">0% Brokerage</div>
+    <div class="usp-sub">We charge you nothing</div>
+  </div>
+  <div class="usp-item reveal">
+    <div class="usp-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+    <div class="usp-title">Free Legal Advice</div>
+    <div class="usp-sub">Expert guidance, no charge</div>
+  </div>
+  <div class="usp-item reveal">
+    <div class="usp-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+    <div class="usp-title">Bottom Price</div>
+    <div class="usp-sub">We negotiate for you</div>
+  </div>
+  <div class="usp-item reveal">
+    <div class="usp-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+    <div class="usp-title">Client First</div>
+    <div class="usp-sub">Relationships for life</div>
+  </div>
+  <div class="usp-item reveal">
+    <div class="usp-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+    <div class="usp-title">After-Sales Service</div>
+    <div class="usp-sub">Best in the business</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-img-wrap reveal-l">
+    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80" alt="BomBrick Realtors Mumbai" class="about-img">
+    <div class="about-img-frame"></div>
+  </div>
+  <div class="reveal">
+    <div class="eyebrow">Who We Are</div>
+    <h2 class="section-title">Mumbai's Most <em>Trusted Name</em><br>in Property</h2>
+    <p class="section-body">BomBrick Realtors is built on one belief — a client who finds the right property at the right price is a client for life. We specialise in commercial and residential spaces across Mumbai with complete transparency, expert legal support, and zero brokerage fees.</p>
+    <div class="about-badges">
+      <div class="badge">0% Brokerage</div>
+      <div class="badge">Free Legal Advice</div>
+      <div class="badge">Commercial Spaces</div>
+      <div class="badge">Residential Spaces</div>
+      <div class="badge">Mumbai Specialists</div>
+    </div>
+    <p class="section-body">Owned and managed by Anas Shaikh, Azeem Shaikh, and Faiz Shaikh — three partners who believe real estate is about trust, not just transactions.</p>
+    <a href="#contact" class="btn-gold" style="margin-top:2rem"><span>Work With Us</span></a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="eyebrow reveal">What We Do</div>
+  <h2 class="section-title reveal">Built Around<br><em>Your Needs</em></h2>
+  <div class="services-grid">
+    <div class="svc-card reveal">
+      <div class="svc-icon-wrap"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+      <div class="svc-title">Residential Spaces</div>
+      <p class="svc-body">From apartments to luxury villas, we find the perfect home across Mumbai's finest neighbourhoods — at the best possible price with zero brokerage.</p>
+    </div>
+    <div class="svc-card reveal">
+      <div class="svc-icon-wrap"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg></div>
+      <div class="svc-title">Commercial Spaces</div>
+      <p class="svc-body">Office spaces, retail outlets, and commercial properties across Mumbai — sourced and negotiated to give your business the perfect address.</p>
+    </div>
+    <div class="svc-card reveal">
+      <div class="svc-icon-wrap"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>
+      <div class="svc-title">Client First Approach</div>
+      <p class="svc-body">Every decision starts with one question: what's best for the client? We build relationships, not just transactions — and stand by you after closing.</p>
+    </div>
+    <div class="svc-card reveal">
+      <div class="svc-icon-wrap"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+      <div class="svc-title">0% Brokerage</div>
+      <p class="svc-body">We charge you absolutely nothing. Our model is built on volume, referrals, and long-term relationships — not one-time commissions at your expense.</p>
+    </div>
+    <div class="svc-card reveal">
+      <div class="svc-icon-wrap"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+      <div class="svc-title">Bottom Price Guarantee</div>
+      <p class="svc-body">We negotiate hard on your behalf. Our deep market knowledge and relationships ensure you always walk away with the best possible deal.</p>
+    </div>
+    <div class="svc-card reveal">
+      <div class="svc-icon-wrap"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+      <div class="svc-title">Best After-Sales Service</div>
+      <p class="svc-body">Our relationship doesn't end at signing. We provide continued support and guidance — because your long-term success drives ours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LEGAL -->
+<section class="legal" id="legal">
+  <div class="legal-grid">
+    <div class="reveal">
+      <div class="eyebrow">Legal-Backed Realty</div>
+      <h2 class="section-title">Free Legal <em>Advice</em><br>On Your Dream Property</h2>
+      <div class="legal-tagline">So You Choose The Right Property</div>
+      <p class="section-body">Real estate in Mumbai involves complex documentation, RERA compliance, and legal due diligence that most buyers overlook. BomBrick gives you access to experienced legal experts — completely free — so every decision is fully informed and protected.</p>
+      <a href="#contact" class="btn-ghost-gold" style="margin-top:2rem">Get Free Legal Advice</a>
+      <p class="legal-note">Experienced Legal Experts &nbsp;·&nbsp; No Hidden Charges &nbsp;·&nbsp; RERA Compliant Guidance</p>
+    </div>
+    <div class="legal-benefits reveal">
+      <div class="legal-benefit">
+        <div class="legal-benefit-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <div>
+          <div class="legal-benefit-title">Sale Agreement Review</div>
+          <p class="legal-benefit-body">We review every clause of your sale agreement to ensure no hidden liabilities or unfavourable terms that could cost you later.</p>
+        </div>
+      </div>
+      <div class="legal-benefit">
+        <div class="legal-benefit-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div>
+          <div class="legal-benefit-title">Title Verification</div>
+          <p class="legal-benefit-body">Our experts verify the property title is clear, undisputed, and free of encumbrances — protecting your investment from the start.</p>
+        </div>
+      </div>
+      <div class="legal-benefit">
+        <div class="legal-benefit-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
+        <div>
+          <div class="legal-benefit-title">RERA Compliance Check</div>
+          <p class="legal-benefit-body">We verify the project is RERA registered and fully compliant — giving you confidence that your builder is legally accountable.</p>
+        </div>
+      </div>
+      <div class="legal-benefit">
+        <div class="legal-benefit-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+        <div>
+          <div class="legal-benefit-title">Due Diligence Support</div>
+          <p class="legal-benefit-body">From NOCs to occupancy certificates — we guide you through every document and approval before you sign.</p>
+        </div>
+      </div>
+      <div class="legal-benefit">
+        <div class="legal-benefit-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+        <div>
+          <div class="legal-benefit-title">Stamp Duty &amp; Registration Guidance</div>
+          <p class="legal-benefit-body">Confused about stamp duty, registration charges, or home loan docs? We walk you through it step by step — at no charge.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="whyus">
+  <div class="reveal-l">
+    <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80" alt="Mumbai real estate" class="whyus-img">
+  </div>
+  <div class="reveal">
+    <div class="eyebrow">Why BomBrick</div>
+    <h2 class="section-title">We Charge <em>Nothing.</em><br>But the Service Is 100%.</h2>
+    <div class="why-list">
+      <div class="why-item">
+        <div class="why-marker"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><div class="why-title">Your Trust. Our Promise.</div><p class="why-body">Every interaction is built on complete honesty. No hidden fees, no misleading claims, no pressure tactics.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-marker"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><div class="why-title">Zero Fees. Complete Commitment.</div><p class="why-body">We earn nothing from you — every recommendation we make is purely in your best interest.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-marker"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><div class="why-title">Legal-Backed Realty</div><p class="why-body">Free legal advice from experienced experts. Choose your property with confidence and full clarity.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-marker"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><div class="why-title">Relations Built for a Lifetime</div><p class="why-body">More than deals — we build trust that lasts. Our clients come back, and bring their families.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="eyebrow reveal">The People Behind BomBrick</div>
+  <h2 class="section-title reveal">Owned &amp; Managed<br><em>With Purpose</em></h2>
+  <div class="team-grid">
+    <div class="team-card reveal">
+      <div class="team-img-wrap"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Anas Shaikh" class="team-img"></div>
+      <div class="team-info">
+        <div class="team-name">Anas Shaikh</div>
+        <div class="team-role">Co-Founder &amp; Partner</div>
+        <p class="team-bio">A seasoned real estate professional with deep roots in Mumbai's property market. Anas leads client acquisition and ensures every deal reflects the BomBrick promise.</p>
+      </div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-img-wrap"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80" alt="Azeem Shaikh" class="team-img"></div>
+      <div class="team-info">
+        <div class="team-name">Azeem Shaikh</div>
+        <div class="team-role">Co-Founder &amp; Partner</div>
+        <p class="team-bio">Azeem brings extensive expertise in commercial real estate and legal due diligence — ensuring clients always make informed, protected decisions.</p>
+      </div>
+    </div>
+    <div class="team-card reveal">
+      <div class="team-img-wrap"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80" alt="Faiz Shaikh" class="team-img"></div>
+      <div class="team-info">
+        <div class="team-name">Faiz Shaikh</div>
+        <div class="team-role">Co-Founder &amp; Partner</div>
+        <p class="team-bio">Faiz heads client relations and after-sales service — the face of the BomBrick promise that the relationship never ends at signing.</p>
+      </div>
+    </div>
+  </div>
+  <div class="team-owned reveal">Owned &amp; Managed by &nbsp;Anas Shaikh &nbsp;|&nbsp; Azeem Shaikh &nbsp;|&nbsp; Faiz Shaikh</div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+  <blockquote class="reveal">"BomBrick found us our commercial space in Santacruz in under two weeks — zero brokerage, full legal support, and a team that genuinely cared. We've referred them to everyone we know."</blockquote>
+  <cite class="reveal">— A Happy Client, Mumbai</cite>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-info-block reveal">
+    <div class="eyebrow">Get In Touch</div>
+    <h2 class="section-title">Let's Find Your<br><em>Dream Property</em></h2>
+    <p class="section-body" style="margin-bottom:2.4rem">Whether buying, renting, or investing — reach out and let's start the conversation. No fees, no pressure, just honest advice.</p>
+    <div class="c-detail">
+      <div class="c-label">Phone</div>
+      <div class="c-value c-phones">
+        <a href="tel:+919619954168">+91 96199 54168</a>
+        <a href="tel:+917977018186">+91 79770 18186</a>
+      </div>
+    </div>
+    <div class="c-detail">
+      <div class="c-label">Email</div>
+      <div class="c-value"><a href="mailto:bombrickrealtors@gmail.com">bombrickrealtors@gmail.com</a></div>
+    </div>
+    <div class="c-detail">
+      <div class="c-label">Office</div>
+      <div class="c-value">
+        Ground Floor, Plot No. 177, Structural Building,<br>
+        Besides L&amp;T Financial Center,<br>
+        Mumbai University Road, Kalina,<br>
+        Santacruz (East), Mumbai — 400098
+        <br>
+        <a href="https://maps.google.com/?q=Kalina+Santacruz+East+Mumbai+400098" target="_blank" rel="noopener" class="c-map-link">View on Map &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="reveal">
+    <form class="contact-form" id="contact-form" action="https://formspree.io/f/mrpzzpan" method="POST">
+      <input type="hidden" name="_subject" value="New Enquiry — BomBrick Realtors">
+      <input type="hidden" name="_replyto" value="bombrickrealtors@gmail.com">
+      <div class="form-field">
+        <label for="full_name">Full Name</label>
+        <input type="text" id="full_name" name="full_name" placeholder="Rahul Shah" required>
+      </div>
+      <div class="form-field">
+        <label for="femail">Email</label>
+        <input type="email" id="femail" name="email" placeholder="rahul@email.com" required>
+      </div>
+      <div class="form-field">
+        <label for="fphone">Phone Number</label>
+        <input type="tel" id="fphone" name="phone" placeholder="+91 98XXX XXXXX">
+      </div>
+      <div class="form-field">
+        <label for="interest">I'm Looking For</label>
+        <select id="interest" name="interest" required>
+          <option value="">Select an option</option>
+          <option>Residential Property</option>
+          <option>Commercial Space</option>
+          <option>Investment Property</option>
+          <option>Free Legal Advice</option>
+          <option>General Enquiry</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="budget">Approximate Budget</label>
+        <input type="text" id="budget" name="budget" placeholder="e.g. ₹50L – ₹1Cr">
+      </div>
+      <div class="form-field">
+        <label for="fmessage">Message</label>
+        <textarea id="fmessage" name="message" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+      </div>
+      <button type="submit" class="btn-submit" id="submit-btn"><span>Send Enquiry</span></button>
+      <div id="form-success">✓ Enquiry received! We'll call you back within 24 hours.</div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">BomBrick <span>Realtors</span></div>
+  <div class="footer-copy">© 2025 BomBrick Realtors. All Rights Reserved.<br>Kalina, Santacruz (East), Mumbai — 400098</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#legal">Legal</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+  // Scroll reveal
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.09 });
+  document.querySelectorAll('.reveal, .reveal-l').forEach(el => obs.observe(el));
+
+  // Nav shadow
+  window.addEventListener('scroll', () => {
+    document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  // Hamburger
+  const ham = document.getElementById('ham');
+  const mob = document.getElementById('mob-menu');
+  ham.addEventListener('click', () => {
+    ham.classList.toggle('open');
+    mob.classList.toggle('open');
+    document.body.style.overflow = mob.classList.contains('open') ? 'hidden' : '';
+  });
+  mob.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      ham.classList.remove('open');
+      mob.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+
+  // Formspree AJAX
+  const form = document.getElementById('contact-form');
+  if (form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+      const succ = document.getElementById('form-success');
+      btn.querySelector('span').textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          form.reset();
+          succ.style.display = 'block';
+          btn.querySelector('span').textContent = 'Sent ✓';
+          btn.style.background = '#4a7c5a';
+        } else {
+          btn.querySelector('span').textContent = 'Error — Try Again';
+          btn.style.background = '#c0392b';
+          btn.disabled = false;
+        }
+      } catch {
+        btn.querySelector('span').textContent = 'Error — Try Again';
+        btn.style.background = '#c0392b';
+        btn.disabled = false;
+      }
+    });
+  }
+</script>
+</body>
+</html>
